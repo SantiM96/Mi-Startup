@@ -90,7 +90,7 @@ html {
     background-color: white;
 }
 
-.secciones{
+.secciones {
     padding: 2rem;
     background-color: rgb(216, 216, 216);
     display: flex;
@@ -107,21 +107,28 @@ html {
     text-align: center;
 }
 .pages{
-    width: 30%;
+    flex: 1 0 30%;
+    margin: 1rem;
+    text-align: center;
 }
 .pages img {
     vertical-align: top;
     width: 100%;
+    height: 100%;
     border: 3px solid #303F9F;
     border-radius: 1rem;
 }
+.adjs-img {
+    width: 100%;
+    height: 80%;
+}
 .btn{
+    display: inline-block;
     margin: 1rem;
     padding: 1rem;
     width: 90%;
     border-radius: 2rem;
     border: 2px solid #303F9F ;
-    text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
     transition: all ease-in-out .3s;
